@@ -1,0 +1,81 @@
+/* Estilos Customizados - Coexistindo com Bootstrap */
+
+/* Ajustes Gerais */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Cabeçalho - Ajustes para o Bootstrap Navbar */
+.cabecalho .navbar-brand {
+    font-weight: bold;
+}
+
+.cabecalho .nav-link {
+    font-weight: bold;
+}
+
+/* Seção Boas-Vindas */
+.secao-boas-vindas {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.secao-boas-vindas h2 {
+    color: #007bff;
+}
+
+.imagem-destaque {
+    max-width: 90%; /* Ajuste para melhor visualização */
+    height: auto;
+    margin: 20px auto; /* Centraliza a imagem */
+    display: block;
+    border: 3px solid #eee; /* Borda mais sutil */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para destaque */
+}
+
+/* Seção Livros */
+.secao-livros {
+    background-color: #fff;
+}
+
+.busca-livros {
+    margin-bottom: 20px;
+}
+
+.item-livro .card {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.capa-livro {
+    max-height: 250px; /* Altura máxima para capas */
+    object-fit: cover; /* Garante que a imagem cubra o espaço */
+}
+
+/* Seção Detalhes Livro */
+.secao-detalhes-livro {
+    background-color: #fff;
+}
+
+.capa-detalhe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+/* Mini erros mantidos para realismo */
+/* O uso de 'float' foi removido em favor do sistema de grid do Bootstrap, mas outras simplicidades foram mantidas. */
+
+
+
